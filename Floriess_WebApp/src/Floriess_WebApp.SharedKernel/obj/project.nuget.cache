@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "a5br1MQzu57ksJmqPw7or/8Gmva3ntkPKcyDME+O49wx5zyCE6HirhA821Nt9EZm0l6Jo6FPrJihntXi/8NOFw==",
+  "success": true,
+  "projectFilePath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.SharedKernel\\Floriess_WebApp.SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\giom\\.nuget\\packages\\ardalis.specification\\6.0.1\\ardalis.specification.6.0.1.nupkg.sha512",
+    "C:\\Users\\giom\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\giom\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

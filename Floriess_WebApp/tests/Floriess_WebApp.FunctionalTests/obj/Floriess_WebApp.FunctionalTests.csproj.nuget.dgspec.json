@@ -1,0 +1,589 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\tests\\Floriess_WebApp.FunctionalTests\\Floriess_WebApp.FunctionalTests.csproj": {}
+  },
+  "projects": {
+    "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Core\\Floriess_WebApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Core\\Floriess_WebApp.Core.csproj",
+        "projectName": "Floriess_WebApp.Core",
+        "projectPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Core\\Floriess_WebApp.Core.csproj",
+        "packagesPath": "C:\\Users\\giom\\.nuget\\packages\\",
+        "outputPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\giom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/skkjlbViDnjT3TsNOAb4ilWvbBFdUh66eeubYrNBkFtx6Yfb4n/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.SharedKernel\\Floriess_WebApp.SharedKernel.csproj": {
+                "projectPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.SharedKernel\\Floriess_WebApp.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Ardalis.SmartEnum": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Infrastructure\\Floriess_WebApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Infrastructure\\Floriess_WebApp.Infrastructure.csproj",
+        "projectName": "Floriess_WebApp.Infrastructure",
+        "projectPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Infrastructure\\Floriess_WebApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\giom\\.nuget\\packages\\",
+        "outputPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\giom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/skkjlbViDnjT3TsNOAb4ilWvbBFdUh66eeubYrNBkFtx6Yfb4n/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Core\\Floriess_WebApp.Core.csproj": {
+                "projectPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Core\\Floriess_WebApp.Core.csproj"
+              },
+              "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.SharedKernel\\Floriess_WebApp.SharedKernel.csproj": {
+                "projectPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.SharedKernel\\Floriess_WebApp.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ardalis.Specification.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.SharedKernel\\Floriess_WebApp.SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.SharedKernel\\Floriess_WebApp.SharedKernel.csproj",
+        "projectName": "Floriess_WebApp.SharedKernel",
+        "projectPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.SharedKernel\\Floriess_WebApp.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\giom\\.nuget\\packages\\",
+        "outputPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\giom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/skkjlbViDnjT3TsNOAb4ilWvbBFdUh66eeubYrNBkFtx6Yfb4n/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Web\\Floriess_WebApp.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Web\\Floriess_WebApp.Web.csproj",
+        "projectName": "Floriess_WebApp.Web",
+        "projectPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Web\\Floriess_WebApp.Web.csproj",
+        "packagesPath": "C:\\Users\\giom\\.nuget\\packages\\",
+        "outputPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\giom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/skkjlbViDnjT3TsNOAb4ilWvbBFdUh66eeubYrNBkFtx6Yfb4n/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Infrastructure\\Floriess_WebApp.Infrastructure.csproj": {
+                "projectPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Infrastructure\\Floriess_WebApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ardalis.ApiEndpoints": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Ardalis.ListStartupServices": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            },
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Ardalis.Result.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.ApplicationInsights": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\tests\\Floriess_WebApp.FunctionalTests\\Floriess_WebApp.FunctionalTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\tests\\Floriess_WebApp.FunctionalTests\\Floriess_WebApp.FunctionalTests.csproj",
+        "projectName": "Floriess_WebApp.FunctionalTests",
+        "projectPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\tests\\Floriess_WebApp.FunctionalTests\\Floriess_WebApp.FunctionalTests.csproj",
+        "packagesPath": "C:\\Users\\giom\\.nuget\\packages\\",
+        "outputPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\tests\\Floriess_WebApp.FunctionalTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\giom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/skkjlbViDnjT3TsNOAb4ilWvbBFdUh66eeubYrNBkFtx6Yfb4n/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\tests\\Floriess_WebApp.UnitTests\\Floriess_WebApp.UnitTests.csproj": {
+                "projectPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\tests\\Floriess_WebApp.UnitTests\\Floriess_WebApp.UnitTests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ardalis.HttpClientTestExtensions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\tests\\Floriess_WebApp.UnitTests\\Floriess_WebApp.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\tests\\Floriess_WebApp.UnitTests\\Floriess_WebApp.UnitTests.csproj",
+        "projectName": "Floriess_WebApp.UnitTests",
+        "projectPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\tests\\Floriess_WebApp.UnitTests\\Floriess_WebApp.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\giom\\.nuget\\packages\\",
+        "outputPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\tests\\Floriess_WebApp.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\giom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/skkjlbViDnjT3TsNOAb4ilWvbBFdUh66eeubYrNBkFtx6Yfb4n/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Web\\Floriess_WebApp.Web.csproj": {
+                "projectPath": "C:\\develop\\Floriess_WebApp\\Floriess_WebApp\\src\\Floriess_WebApp.Web\\Floriess_WebApp.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.2.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[5.1.8, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
