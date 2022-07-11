@@ -45,11 +45,16 @@ font-family: 'Roboto', sans-serif;
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #8B9165;
+    color: #4E562D;
+    ;
     background: #fff;
     max-width: 1920px;
     margin: 0 auto;
     overflow-x: hidden;
+}
+
+footer {
+    color: #656854;
 }
 
 a,
@@ -409,7 +414,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     font-size: 48px;
     color: #4E562D;
     font-weight: 400;
-    margin: 20px 0 22px;
+    margin: 2em 0em 0.5em 0em;
 }
 
 .welcome-hero-txt p {
