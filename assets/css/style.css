@@ -44,9 +44,8 @@ font-family: 'Roboto', sans-serif;
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #4E562D;
-    ;
     background: #fff;
     max-width: 1920px;
     margin: 0 auto;
@@ -68,9 +67,13 @@ a:focus {
     display: inline-block;
     text-decoration: none;
     color: #F29753;
-    font-size: 16px;
+    font-size: 20px;
     padding: 0;
     font-weight: 500;
+}
+
+h3 {
+    font-size: 22px;
 }
 
 h1,
@@ -81,14 +84,12 @@ h5,
 h6 {
     margin: 0;
     color: #5f5b57;
-    font-size: 18px;
     font-weight: 500;
 }
 
 p {
     margin: 0;
     color: #4E562D;
-    font-size: 16px;
     line-height: 1.8;
 }
 
@@ -96,16 +97,6 @@ img {
     border: none;
     max-width: 100%;
     height: 800px;
-}
-
-ul {
-    padding: 0;
-    margin: 0 auto;
-    list-style: none;
-}
-
-ul li {
-    list-style: none;
 }
 
 select,
@@ -119,6 +110,10 @@ button {
 button {
     background: transparent;
     border: 0;
+}
+
+ul>li {
+    margin-left: 40px;
 }
 
 html,
@@ -153,7 +148,6 @@ body {
 }
 
 section {
-    margin-top: 40px;
     margin-bottom: 100px;
 }
 
@@ -383,11 +377,10 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*welcome-hero-content*/
 
 .single-welcome-hero {
-    display: flex;
+    display: block;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 620px;
     margin: 0em 0em 0em 3.5em;
 }
 
@@ -400,7 +393,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .orange {
     background-image: url("/assets/images/orange-spot.png");
-    background-position: right;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: content;
 }
@@ -444,16 +437,25 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .footer {
     background: #FBE1B5;
-    display: flex;
+    display: block;
     align-items: center;
     height: 154px;
 }
 
 .hm-footer-copyright p,
 .hm-footer-copyright p a {
-    color: #F29753;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
+}
+
+.hm-footer-copyright {
+    padding: 1.5em;
+}
+
+.hm-footer-copyright>div>a {
+    color: #656854;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 
