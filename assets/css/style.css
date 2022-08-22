@@ -133,6 +133,7 @@ body {
 }
 
 
+
 /* section-header */
 
 .section-header {
@@ -437,7 +438,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     display: block;
     align-items: center;
     height: 154px;
-    position: absolute;
+    position: absolute;   
     width: 100%;
 }
 
