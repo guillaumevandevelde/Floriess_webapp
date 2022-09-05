@@ -50,16 +50,21 @@ body {
     max-width: 1920px;
     margin: 0 auto;
     overflow-x: hidden;
+    min-height: calc(100vh - 100px);
+    
 }
 
 main {
-    height: auto;
+    position: relative;
+    min-height: 100vh;
     padding-left: 5em;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
-footer {
-    color: #656854;
-}
+
 
 a,
 a:hover,
@@ -423,23 +428,16 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding-left: 35px;
 }
 
-.welcome-hero-txt {}
-
-
-/*welcome-hero-content*/
-
-
 /*-------------------------------------
         11. Footer
 --------------------------------------*/
 
 .footer {
-    background: #FBE1B5;
-    display: block;
-    align-items: center;
-    height: 154px;
-    position: absolute;   
+    color: #656854;
+    background: #FBE1B5; 
+    align-items: center;      
     width: 100%;
+    bottom: 0;    
 }
 
 .hm-footer-copyright p,
